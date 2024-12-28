@@ -1,0 +1,508 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sign In Button */
+.get-started-button {
+    background: linear-gradient(to right, #9E5BF3, #6C0EEF) ; 
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+
+  .get-started-button:hover {
+    background: linear-gradient(to right,#7438ac, #b702ff);
+    transform: scale(1.10);
+  }
+
+  .get-started-button::after {
+    content: " →";
+    margin-left: 5px;
+  }
+
+
+
+.gear-up{
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 3px;
+} 
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black; 
+    z-index: 1; 
+}
+
+.overlay-text p{
+    font-weight: normal;
+}
+
+
+.overlay-text-second{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black; 
+    z-index: 1; 
+}
+
+.overlay-text-second p{
+    font-weight: normal;
+}
+
+.overlay-text-second-partII{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black; 
+    z-index: 1; 
+}
+
+.overlay-text-second-partII p{
+    font-weight: normal;
+}
+.products-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.product-nav li:hover{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+.product-nav li a:hover{
+        color: blue;
+        border-bottom: 1px solid blue;
+        border-radius: 10px;
+
+    }
+
+    .support-nav li a:hover{
+        border-bottom:1px solid black ;
+
+    }
+    
+
+.product-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+    aspect-ratio: 16/9;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.logo img {
+    height: 30px;
+}
+/* Section Styles */
+
+section {
+    padding-top: 80px; /* Same as header height */
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+}
+section img {
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlay-text-cod{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white; 
+    z-index: 1; 
+}
+.overlay-text-cod p{
+    font-weight: normal;
+}
+
+.overlay-text-stream-deck{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white; 
+    z-index: 1; 
+}
+
+.overlay-text-stream-dec p{
+    font-weight: normal;
+}
+
+.XLR-Dock{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white; 
+    z-index: 1;
+}
+.USB-Hub{
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white; 
+    z-index: 1; 
+}
+
+.overlay-text-last{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:black; 
+    z-index: 1; 
+}
+
+.footer {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+.footer h5 {
+    color:black;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links {
+    color:#333;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    color: black;
+    margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #666;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.bottom-footer {
+    padding: 1rem 0;
+    border-top: 1px solid #eee;
+    margin-top: 2rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+.first-section{
+    height: 600px;
+    width: 100vw;
+}
+
+.fourth-section{
+    height: 600px;
+    width: 100vw;
+    padding: 10px;
+}
+
+.fourth-section video{
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    &::-webkit-media-controls{
+        display: none !important;
+    }
+}
+
+
+.fifth-section{
+    background-color: #EAEAEA;
+}
+
+.fifth-section h1{
+    text-align: center;
+    font-family: "Helvetica Neue Condensed", "Arial Narrow", sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.social-media{
+    text-align: center;
+}
+
+
+.social-media a{
+    color: black;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+/* Tablet Styles (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .navbar-nav {
+        font-size: 1.2rem !important;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 0 0.5rem;
+    }
+
+    .overlay-text, 
+    .overlay-text-second, 
+    .overlay-text-second-partII,
+    .overlay-text-cod,
+    .overlay-text-stream-deck,
+    .XLR-Dock,
+    .USB-Hub,
+    .overlay-text-last {
+        left: 50%;
+        top: 50%;
+        width: 80%;
+    }
+
+    .first-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .first-section .col {
+        width: 100%;
+    }
+
+    .third-section {
+        flex-direction: column;
+    }
+
+    .third-section .col {
+        width: 100%;
+    }
+
+    .fourth-section {
+        height: auto;
+    }
+
+    .fifth-section h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+}
+
+/* Mobile Styles (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .gear-up {
+        font-size: medium;
+    }
+
+    .get-started-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        font-size: 1rem !important;
+        text-align: center;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .overlay-text h1,
+    .overlay-text-second h1,
+    .overlay-text-second-partII h1,
+    .overlay-text-cod h1,
+    .overlay-text-stream-deck h1,
+    .XLR-Dock h1,
+    .USB-Hub h1,
+    .overlay-text-last h1 {
+        font-size: 24px;
+    }
+
+    .overlay-text p,
+    .overlay-text-second p,
+    .overlay-text-second-partII p,
+    .overlay-text-cod p,
+    .overlay-text-stream-deck p,
+    .XLR-Dock p,
+    .USB-Hub p,
+    .overlay-text-last p {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    section img {
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    .footer {
+        padding: 2rem 0;
+    }
+
+    .footer h5 {
+        margin-bottom: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+    }
+
+    .bottom-footer {
+        text-align: center;
+    }
+
+    .bottom-footer .col-md-4 {
+        margin-bottom: 1rem;
+    }
+
+    .bottom-footer .text-end {
+        text-align: center !important;
+    }
+
+    .fifth-section h1 {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .social-media a {
+        font-size: x-large;
+        margin: 5px;
+    }
+}
+
+/* Additional Bootstrap Navbar Responsive Fixes */
+@media screen and (max-width: 991px) {
+    .navbar-collapse {
+        background-color: white;
+        padding: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .products-dropdown {
+        position: static;
+        padding: 1rem 0;
+    }
+}

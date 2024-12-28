@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Community Hub</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Gaming Community Hub</h1>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-gray-300">Home</a>
+                <a href="#" class="hover:text-gray-300">Events</a>
+                <a href="#" class="hover:text-gray-300">Support</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Upcoming Events Section -->
+    <section class="container mx-auto mt-8 p-4">
+        <h2 class="text-3xl font-bold mb-6">Upcoming Events</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Event Card 1 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-bold mb-2">Pro Players Q&A Session</h3>
+                <p class="text-gray-600 mb-4">Date: January 15, 2025</p>
+                <p class="mb-4">Join our top players for strategy discussions and tips!</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Register Now</button>
+            </div>
+            
+            <!-- Event Card 2 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-bold mb-2">Community Tournament</h3>
+                <p class="text-gray-600 mb-4">Date: January 20, 2025</p>
+                <p class="mb-4">Compete with fellow gamers and win exciting prizes!</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Join Tournament</button>
+            </div>
+            
+            <!-- Event Card 3 -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-bold mb-2">Strategy Workshop</h3>
+                <p class="text-gray-600 mb-4">Date: January 25, 2025</p>
+                <p class="mb-4">Learn advanced strategies from professional coaches!</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Reserve Spot</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Streamers Section -->
+    <section class="container mx-auto mt-12 p-4">
+        <h2 class="text-3xl font-bold mb-6">Featured Streamers</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Streamer Card 1 -->
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="./images/mavi.jpg" alt="Streamer 1" class="rounded-full mx-auto mb-4" height="100%">
+                <h3 class="text-xl font-bold">MAVI</h3>
+                <p class="text-gray-600 mb-2">Strategy Expert</p>
+                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="alert('This Features Coming Soon')">Chat Now</button>
+            </div>
+
+            <!-- Streamer Card 2 -->
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="./images/jhonny.jpg" alt="Streamer 2" class="rounded-full mx-auto mb-4" height="100%">
+                <h3 class="text-xl font-bold">Jonathan Gaming</h3>
+                <p class="text-gray-600 mb-2">Tournament Champion</p>
+                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="alert('This Features Coming Soon')">Chat Now</button>
+            </div>
+
+            <!-- Streamer Card 3 -->
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="./images/mortal.jpg" alt="Streamer 3" class="rounded-full mx-auto mb-4" height="100%">
+                <h3 class="text-xl font-bold">Mortal Gaming</h3>
+                <p class="text-gray-600 mb-2">Pro Coach</p>
+                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="alert('This Features Coming Soon')">Chat Now</button>
+            </div>
+
+            <!-- Streamer Card 4 -->
+            <div class="bg-white rounded-lg shadow-md p-4 text-center">
+                <img src="./images/antaryami.jpg" alt="Streamer 4" class="rounded-full mx-auto mb-4" height="100%">
+                <h3 class="text-xl font-bold">AntarYami Gaming</h3>
+                <p class="text-gray-600 mb-2">Team Captain</p>
+                <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600" onclick="alert('This Features Coming Soon')">Chat Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Chat Section -->
+    <section class="container mx-auto mt-12 p-4 mb-8">
+        <h2 class="text-3xl font-bold mb-6">Community Chat</h2>
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="h-64 bg-gray-100 rounded-lg p-4 mb-4 overflow-y-auto">
+                <!-- Chat messages would appear here -->
+                <div class="mb-4">
+                    <p class="font-bold">BrownDevil</p>
+                    <p>Hey everyone! Anyone want to discuss the latest meta?</p>
+                </div>
+                <div class="mb-4">
+                    <p class="font-bold">DynamoGaming</p>
+                    <p>I'll be hosting a strategy session tomorrow at 3 PM!</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <input type="text" placeholder="Type your message..." class="flex-1 p-2 border rounded">
+                <button class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Send</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
