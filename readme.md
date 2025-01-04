@@ -1,10 +1,21 @@
-# D2C Gaming Accessories
+# Winter Soldiers Gaming Gears
 
-A Direct-to-Consumer (D2C) brand for gaming enthusiasts, offering high-quality gaming accessories and peripherals.
+A Direct-to-Consumer (D2C) brand for gaming enthusiasts, offering high-quality gaming gears and accessories.
+
+## Table of Contents
+
+* [About](#about)
+* [Features](#features)
+* [Usage](#usage)
+* [Customization](#customization)
+* [Community](#community)
+* [License](#license)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
 
 ## About
 
-Our project aims to provide gaming enthusiasts with high-quality gaming accessories and peripherals, cutting out the middleman and providing a more personalized shopping experience.
+Winter Soldiers Gaming Gears is a D2C brand that aims to provide gaming enthusiasts with high-quality gaming gears and accessories. Our mission is to deliver exceptional gaming experiences through our products and community engagement.
 
 ## Features
 
@@ -16,17 +27,51 @@ Our project aims to provide gaming enthusiasts with high-quality gaming accessor
 
 ## Products
 
-* [List your products here, e.g. gaming mice, keyboards, headsets, etc.]
+* Key Light Neo (Coming Soon)
+	+ A lighting solution for flawless video quality
+	+ Adjustable brightness and color temperature
+	+ Compact and easy to mount on desks or tripods
+* Game Capture Neo (Coming Soon)
+	+ A device to record or stream gameplay from consoles or PCs
+	+ Records in HD or 4K
+	+ Compatible with platforms like Twitch, YouTube, and Discord
+* Facecam Neo (Coming Soon)
+	+ A high-quality webcam for professional video recording and streaming
+	+ High-resolution video (e.g., 1080p or 4K)
+	+ Better low-light performance than standard webcams
+* Stream Deck Neo (Coming Soon)
+	+ A customizable control panel for managing tasks during streaming or productivity work
+	+ Easily switch scenes, control audio, or trigger effects while streaming
+	+ Integrates with software like OBS, Zoom, and Photoshop
+* Keyboard Neo (Available)
+	+ A mechanical keyboard built for gaming and typing comfort
+	+ Responsive keys for fast input
+	+ Customizable RGB lighting for style and comfort
+* Headset Neo (Available)
+	+ A high-quality gaming headset for clear sound and comfortable wear
+	+ Noise-canceling technology for better focus
+	+ Comfortable ear cups for long-duration use
+* Cooling Fan Neo (Available)
+	+ A cooling solution to prevent overheating during intensive gaming or work sessions
+	+ Efficient cooling with high-speed fans
+	+ Quiet operation to avoid distractions
+
+## Usage
+
+1. Visit our website at [website URL] to explore our products and community.
+2. Browse our collection of gaming gears and accessories, and purchase items that suit your gaming needs.
+3. Engage with our community by commenting on posts, sharing your gaming experiences, and participating in discussions.
+
+## Customization
+
+* Our website is built using HTML, CSS, and JavaScript, allowing for easy customization and modification.
+* Users can customize their gaming gears and accessories by selecting from a variety of options and configurations.
 
 ## Community
 
 * Join our community by creating an account on our website and participating in discussions.
 * Share your gaming experiences, tips, and tricks with our community.
 * Stay updated with the latest gaming news and trends through our news ticker.
-
-## License
-
-The D2C Gaming Accessories website is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ## Contributing
 
@@ -35,13 +80,13 @@ Contributions are welcome! Please follow the [Contribution Guidelines](#) to get
 ## Acknowledgments
 
 * We would like to thank our team members for their hard work and dedication to this project.
-* We would also like to thank the PW IOI Hackathon organizers for providing us with the opportunity to work on this project.
+* We would also like to thank the PWIOI hackathon organizers for providing us with the opportunity to work on this project.
 
 Files in this repository:
 
-* `index.html`: The main HTML file for our website.
-* `community.html`: The main HTML file for our community page.
-* `login.html`: The main HTML file for our login page.
-* `support.html`: The main HTML file for our support page.
+* `blogs.html`: The main HTML file for our blogs page.
+* `css/style.css`: The CSS file for our website's styling.
+* `js/main.js`: The JavaScript file for our website's interactive elements.
 * `img/`: A folder containing images used on our website.
-* `js/`: A folder containing JavaScript files for our website.
+* `index.html`: The main HTML file for our website.
+* `support.html`: The main HTML file for our support page.
